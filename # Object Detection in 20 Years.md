@@ -181,7 +181,7 @@
 + measures how the model match the data. the loss yields the gradients of the model weights
 
 $$  
-L(p, p^* ， t, t^*) = L_{\text{cls.}}(p, p^*) + \beta I(t) L_{\text{loc.}}(t, t^*)  
+L(p, p^* ，  t, t^*) = L_{\text{cls.}}(p, p^*) + \beta I(t) L_{\text{loc.}}(t, t^*)  
 $$  
 
 
@@ -367,3 +367,4 @@ where F is Fourier transform, F^−1 is Inverse Fourier transform, and circle is
 + Cross-modality detection
 
 + Towards open-world detection
+
