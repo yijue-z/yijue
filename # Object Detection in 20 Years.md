@@ -208,9 +208,8 @@ $$
 \text{Smooth}_{L1}(x) = 
 \begin{cases} 
 0.5x^2 & \text{if } |x| < 1 \\ 
-|x| - 0.5 & \text{else} 
+|x| - 0.5 & \text{otherwise} 
 \end{cases}
-\tag{2}
 $$
 
 where x denotes the difference between the target and predicted values. When calculating the error, the above losses treat four numbers (x,y,w,h) representing a bounding box as independent variables, however, a correlation exists between them. Moreover, IoU is utilized to determine if the prediction box corresponds to the actual ground truth box in evaluation. Equal Smooth L1 values will have totally different IoU values, hence IoU loss [105] is introduced as follows:
@@ -367,5 +366,6 @@ where F is Fourier transform, F^−1 is Inverse Fourier transform, and circle is
 + Cross-modality detection
 
 + Towards open-world detection
+
 
 
